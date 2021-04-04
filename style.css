@@ -1,10 +1,77 @@
-html {
-    background-color: aqua;
+html{
+    background-color: rgb(255, 255, 255);
 }
 
-.container {
-    background-color: black;
-    width: 250px;
-    height: 250px;
-    
+.container{
+    margin-top: 50px;
+    width: 100%;
+    border-top: 50px solid rgb(209, 60, 209);
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.col-33{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(https://ae01.alicdn.com/kf/H199772570ae34633ad32e276e3ae5eddy.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.col-33-2{
+    background-image: url(https://www.picclickimg.com/d/l400/pict/163997795760_/Cardistry-Touch-Origin-Playing-Cards-Sealed.jpg);
+}
+
+.col-33-3{
+    background-image: url(https://images.unsplash.com/photo-1562766879-ce73e9394f94?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyZGlzdHJ5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+}
+
+.sub1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.sub1 h2{ 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    color: rgb(236, 117, 81);
+}
+
+.sub2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sub2 a{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.sub2 a button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: rgb(236, 117, 81);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+}
+
+.sub2 a button:hover{
+    background-color: salmon;
+    transition: 1s;
+    cursor: pointer;
 }
