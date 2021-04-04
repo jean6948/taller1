@@ -3,9 +3,9 @@ html{
 }
 
 .container{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
-    border-top: 50px solid rgb(209, 60, 209);
+    border-top: solid 40px salmon;
 }
 
 .row{
@@ -28,10 +28,12 @@ html{
 
 .col-33-2{
     background-image: url(https://www.picclickimg.com/d/l400/pict/163997795760_/Cardistry-Touch-Origin-Playing-Cards-Sealed.jpg);
+    
 }
 
 .col-33-3{
     background-image: url(https://images.unsplash.com/photo-1562766879-ce73e9394f94?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyZGlzdHJ5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+    
 }
 
 .sub1{
@@ -46,7 +48,8 @@ html{
 .sub1 h2{ 
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 2rem;
-    color: rgb(236, 117, 81);
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px;
 }
 
 .sub2{
@@ -55,19 +58,19 @@ html{
     justify-content: center;
     align-items: flex-end;
 }
-.sub2 a{
+.sub2 a {
     width: 100%;
     padding-top: 10px;
+    align-items: center;
 }
 
 .sub2 a button{
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border: none;
-    background-color: rgb(236, 117, 81);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(184, 72, 59);
 }
 
 .sub2 a button:hover{
